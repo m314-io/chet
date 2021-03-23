@@ -1,0 +1,12 @@
+[package]
+name = "chet"
+version = "0.1.0"
+authors = ["M314 team <email@m314.io>"]
+publish = false
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gdnative = { path = "../godot-rust/gdnative" }
